@@ -1,0 +1,11 @@
+.Facility-list{
+    margin-top: 1em;
+    list-style: none;
+
+    font-size: 0.6em;
+    font-weight: lighter;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

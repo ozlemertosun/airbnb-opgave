@@ -1,0 +1,11 @@
+.Facility-list__wifi{
+    padding-left: 1.6em;
+}
+
+.Facility-list__wifi::before{
+    content: "\f1eb"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.6em; 
+}

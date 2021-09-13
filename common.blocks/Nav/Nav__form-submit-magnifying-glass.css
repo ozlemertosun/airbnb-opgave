@@ -1,0 +1,11 @@
+
+.Nav__form-submit-magnifying-glass{
+    background-color: #f93444;
+    color: white;
+    border: none;
+
+    border-radius: 50%;
+    padding: 2%;
+
+    cursor: pointer;
+}

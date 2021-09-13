@@ -1,0 +1,11 @@
+.Facility-list__hot-water{
+    padding-left: 1.6em;
+}
+
+.Facility-list__hot-water::before{
+    content: "\f043"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.6em; 
+}

@@ -1,0 +1,5 @@
+.Destination-card__ruler{
+    width: 32px;
+    border-top: 0.5px lightgrey solid;
+    margin-bottom: 0.5em;
+}

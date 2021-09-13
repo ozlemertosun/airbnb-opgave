@@ -1,0 +1,6 @@
+.Gallery__image-outdoor{
+    grid-area: 1/1/3/2;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

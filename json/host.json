@@ -1,0 +1,24 @@
+{
+    "Host" : {
+        "hostImage" : "morten.jpg", 
+        "hostName" : "Morten", 
+        
+        "hostSince" : {
+            "month" : "januar", 
+            "year" : 2019
+        }, 
+
+        "hostInfoList" : [
+            {
+            "hostReview" : 122, 
+            "hostConfirmed" : true,
+            "superHost" : true
+        }
+        ], 
+        "title" : "Morten er Superhost", 
+        "aboutText" : "Superhosts er erfarne værter med gode anmeldelser, der dedikerer dere tid til at give deres gæster et godt ophold.", 
+        "answerRate" : "Morten svarer som regel inden for en time.", 
+        "requestButton" : "Morten", 
+        "safetyInformation" : true
+    }
+}

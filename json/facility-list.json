@@ -1,0 +1,37 @@
+{
+    "facility" : {
+       "list" : [
+        { 
+            "petsAllowed" : {
+                "status": true,
+                "logo": "paw", 
+                "content": "Husdyr tilladt"
+            }, 
+            "beach" : {
+                "status": true,
+                "logo": "umbrella-beach", 
+                "content": "Strand"
+            }, 
+            "freeWifi" : {
+                "status": true,
+                "logo": "wifi", 
+                "content": "Gratis internet"
+            }, 
+            "freeParking" : {
+                "status": true,
+                "logo": "car", 
+                "content": "Gratis Parkering på stedet"
+            }, 
+            "greenArea" : {
+                "status": true,
+                "logo": "tree", 
+                "content": "Skov i nærheden"
+            }, 
+            "hotWater" : {
+                "status": true,
+                "logo": "tint", 
+                "content": "Varmt vand"
+            }
+        }], 
+        "totalFacilityButton" : 31
+}}

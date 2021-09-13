@@ -1,0 +1,5 @@
+.Gallery__image-outdoor-view{
+    grid-area: 1/3/2/4;
+
+    border-top-right-radius: 15px;
+}

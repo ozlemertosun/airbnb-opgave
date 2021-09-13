@@ -1,0 +1,22 @@
+{
+    "Destination" : [
+        {
+        "superhost" : true, 
+
+        "image" : [
+            "summerhouse_small.jpg", 
+            "#", 
+            "#", 
+            "#", 
+            "#"
+        ], 
+        "subtitle" : "Hel(t) hytte i Orø", 
+        "title" : "Summerhouse at island - fjordview", 
+        "saveIcon" : "heart", 
+        "features" : " 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse",
+        "ratingIcon" : "star", 
+        "ratingScore" : 4.97, 
+        "ratingReview" : 178
+    }
+]
+}

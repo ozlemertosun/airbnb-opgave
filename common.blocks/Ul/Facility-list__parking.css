@@ -1,0 +1,11 @@
+.Facility-list__parking{
+    padding-left: 1.6em;
+}
+
+.Facility-list__parking::before{
+    content: "\f1b9"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.6em; 
+}

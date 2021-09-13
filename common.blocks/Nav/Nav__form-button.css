@@ -1,0 +1,11 @@
+.Nav__form-button{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+
+    width: 105px;
+    border: none;  
+    background-color: transparent;
+
+    cursor: pointer;
+}
+

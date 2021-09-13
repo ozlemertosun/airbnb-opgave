@@ -1,0 +1,14 @@
+/**/
+.google-map {
+    position: relative;
+    padding-bottom: 75%;  /* forholdet mellem højde og bredde*/
+    height: 0;
+    overflow: hidden;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

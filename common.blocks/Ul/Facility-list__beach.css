@@ -1,0 +1,11 @@
+.Facility-list__beach{
+    padding-left: 1.6em;
+}
+
+.Facility-list__beach::before{
+    content: "\f5ca"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.6em; 
+}

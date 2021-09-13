@@ -1,0 +1,9 @@
+.Host-info__about-host-wrap{
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    font-size: 0.6em;
+
+    margin-top: 2em;
+}

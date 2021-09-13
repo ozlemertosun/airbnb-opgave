@@ -1,0 +1,11 @@
+
+.Gallery-grid-container{
+    display: grid;
+    grid-template: 1fr 1fr / 50% 25% 25%;
+
+    gap: 10px;
+
+    cursor: pointer;
+
+    margin-bottom: 2rem;
+}

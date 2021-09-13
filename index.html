@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--meta-tags-->
+    <meta name="description" content="Dette er en skoleopgave af webudviklere fra Roskilde Tekniske Skole efterår 2021"/>
+    <meta name="keywords" content="Roskilde Teknikse Skole, skoleprojekt"/>
+    <meta name="author" content="Özlem Ertosun">
+
+    <!--link til font Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!--link til fontawsome-->
+	<script src="https://kit.fontawesome.com/30dd386b12.js" crossorigin="anonymous"></script>
+
+    <!--STYLESHEETS-->
+
+    <!--Common stylesheets-->
+    <link rel="stylesheet" href="common.blocks/style.css">
+    <link rel="stylesheet" href="common.blocks/bold-font.css">
+
+    <link rel="stylesheet" href="common.blocks/flex-container.css">
+    <link rel="stylesheet" href="common.blocks/flex-container-left.css">
+    <link rel="stylesheet" href="common.blocks/flex-container-right.css">
+    <link rel="stylesheet" href="common.blocks/grey-font.css">
+    <link rel="stylesheet" href="common.blocks/font-color-black.css">
+
+    <link rel="stylesheet" href="common.blocks/Main/Destination-main.css">
+
+    <link rel="stylesheet" href="common.blocks/icon-medal.css">
+    <link rel="stylesheet" href="common.blocks/icon-gap.css">
+
+    <link rel="stylesheet" href="common.blocks/flex-column.css">
+
+    <link rel="stylesheet" href="common.blocks/list-padding.css">
+    <link rel="stylesheet" href="common.blocks/margin-bottom.css">
+    <link rel="stylesheet" href="common.blocks/margin-top.css">
+    
+    <link rel="stylesheet" href="common.blocks/icon-red.css">
+    <link rel="stylesheet" href="common.blocks/right-padding.css">
+    <link rel="stylesheet" href="common.blocks/shield-icon.css">
+
+    <link rel="stylesheet" href="common.blocks/safety-wrapper.css">
+    <link rel="stylesheet" href="common.blocks/safety-text.css">
+
+    <link rel="stylesheet" href="common.blocks/a-reset.css">
+
+
+    <!--Heading-->
+    <link rel="stylesheet" href="common.blocks/Heading/Heading-size-xl.css">
+    <link rel="stylesheet" href="common.blocks/Heading/Heading-size-l.css">
+    <link rel="stylesheet" href="common.blocks/Heading/Heading-size-m.css">
+    <link rel="stylesheet" href="common.blocks/Heading/Heading-size-s.css">
+
+    <!--Button-->
+    <link rel="stylesheet" href="common.blocks/Button/Filter-button.css">
+    <link rel="stylesheet" href="common.blocks/Button/button-style.css">
+
+    <!--Header-->
+    <link rel="stylesheet" href="common.blocks/Header/Header.css">
+
+    <!--Nav-->
+    <link rel="stylesheet" href="common.blocks/Nav/Nav.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__logo-wrap.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__form.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__form-button.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__form-button-date.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__form-submit-magnifying-glass.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__item-become-hoset.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__item-icon-globe.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__user-wrap-item__icon-bars.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__user-wrap-item__icon-user.css">
+    
+
+    <!--Article-->
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card_anchor.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__image.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__paragraph-wrapper.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__destination.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__icon-heart.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__icon-star.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__features.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__ruler.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__destination-title.css">
+    <link rel="stylesheet" href="common.blocks/Article/Destination-card__ratings.css">
+    <link rel="stylesheet" href="common.blocks/Nav/Nav__user-wrap.css">
+
+    <!--Article-Destination-info-->
+    <link rel="stylesheet" href="common.blocks/Article-Destination-info/Destination-info.css">
+    <link rel="stylesheet" href="common.blocks/Article-Destination-info/Destination-info__place.css">
+
+   <!--Section-->
+   <link rel="stylesheet" href="common.blocks/Section/flex-container__section.css">
+
+   <!--Figure-->
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery-grid-container.css">
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery__image-outdoor.css">
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery__image-sofa-area.css">
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery__image-outdoor-view.css">
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery__image-indoor.css">
+    <link rel="stylesheet" href="common.blocks/Figure/Gallery__image-kitchen-area.css">
+
+    <!--Ul-->
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list-wrapper.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list.css">
+
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__animals.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__beach.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__wifi.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__parking.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__forrest.css">
+    <link rel="stylesheet" href="common.blocks/Ul/Facility-list__hot-water.css">
+  
+
+    <!--Article-Host-info-->
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__image-container.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__host_image.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__flex-container.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__host-since.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__about-host-wrap.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__superhost-info.css">
+    <link rel="stylesheet" href="common.blocks/Article-host-info/Host-info__answer-time.css">
+    
+
+    <title>airbnb - skoleopgave - Roskilde Tekniske Skole efterår 2021</title>
+</head>
+<body>
+    <div class="wrapper">
+
+            <header class="Header">
+                <nav class="Header__nav Nav">
+                    <div class="Nav__logo-wrap">
+                        <a class="Nav__logo-wrap-item" href=""><img src="images/logo-small.png" alt="airbnb logo"></a>
+                    </div>
+
+                    <div class="Nav__form">
+                        <button class="Nav__form-button">Kortområde</button>
+                        <button class="Nav__form-button-date">Tilføj dato</button>
+                        <button class="Nav__form-button">Tilføj gæster</button>
+                        <button class="Nav__form-submit-magnifying-glass" type="submit"><i class="fas fa-search Nav__form-submit-magnifying-glass__icon"></i></button>
+                    </div>
+
+                        <a class="Nav__item-become-hoset" href="">Bliv vært</a>
+                        <a class="Nav__item-icon-globe" href=""><i class="fas fa-globe Nav__item__icon-globe"></i></a>
+
+                    <div class="Nav__user-wrap">
+                        <a class="Nav__user-wrap-item" href=""><i class="fas fa-bars Nav__user-wrap-item__icon-bars"></i></a> 
+                        <a class="Nav__user-wrap-item" href=""><i class="fas fa-user-circle Nav__user-wrap-item__icon-user"></i></a>
+                    </div>
+                </nav>
+            </header> 
+
+            <main class="flex-container">
+
+                <section class="flex-container__section">  
+                    <p class="flex-container__Paragraph">Over 300 overnatningsteder</p>
+
+                    <h1 class="Heading Heading-size-xl">Ophold i det valgte kortområde</h1>
+
+                    <button class="Filter-button">Gratis annullering</button>
+                    <button class="Filter-button">Hele stedet</button>
+                    <button class="Filter-button">Pris</button>
+                    <button class="Filter-button">Øjeblikkelig booking</button>
+                    <button class="Filter-button">Flere filtre · 19</button>
+
+                       <a class="a-reset" href="destination.html">
+                        <article class="Destination-card">
+                        
+                            <div>
+                                <img class="Destination-card__image Destination-card__image_superhost_true" src="images/summerhouse_small.jpg" alt="Sommerhus Orø udendørs">
+                            </div>
+
+                            <div class="Destination-card__paragraph-wrapper">
+                                
+                                <div class="flex-container">
+                                    <div>
+                                        <p class="Destination-card__destination">Hel(t) hytte i Orø</p>
+                                        <p class="Destination-card__destination-title">Summerhouse at island - fjordview</p>
+                                    </div>
+                                        <i class="far fa-heart Destination-card__icon-heart"></i>
+                                </div>
+
+                                <div class="Destination-card__ruler"></div>
+
+                                <p class="Destination-card__features"> 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                <p class="Destination-card__ratings"> <i class="fas fa-star Destination-card__icon-star"></i> <span class="bold-font">4,97</span> (178 omtaler)</p>
+                            </div>
+                        </article> 
+                    </a><!--end of article-->
+
+                       <a class="a-reset" href="#">
+                        <article class="Destination-card">
+                        
+                            <div>
+                                <img class="Destination-card__image Destination-card__image_superhost_true" src="images/summerhouse_small.jpg" alt="Sommerhus Orø udendørs">
+                            </div>
+
+                            <div class="Destination-card__paragraph-wrapper">
+                                
+                                <div class="flex-container">
+                                    <div>
+                                        <p class="Destination-card__destination">Hel(t) hytte i Orø</p>
+                                        <p class="Destination-card__destination-title">Summerhouse at island - fjordview</p>
+                                    </div>
+                                        <i class="far fa-heart Destination-card__icon-heart"></i>
+                                </div>
+
+                                <div class="Destination-card__ruler"></div>
+
+                                <p class="Destination-card__features"> 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                <p class="Destination-card__ratings"> <i class="fas fa-star Destination-card__icon-star"></i> <span class="bold-font">4,97</span> (178 omtaler)</p>
+                            </div>
+                        </article> 
+                    </a><!--end of article-->
+                       <a class="a-reset" href="#">
+                        <article class="Destination-card">
+                        
+                            <div>
+                                <img class="Destination-card__image Destination-card__image_superhost_true" src="images/summerhouse_small.jpg" alt="Sommerhus Orø udendørs">
+                            </div>
+
+                            <div class="Destination-card__paragraph-wrapper">
+                                
+                                <div class="flex-container">
+                                    <div>
+                                        <p class="Destination-card__destination">Hel(t) hytte i Orø</p>
+                                        <p class="Destination-card__destination-title">Summerhouse at island - fjordview</p>
+                                    </div>
+                                        <i class="far fa-heart Destination-card__icon-heart"></i>
+                                </div>
+
+                                <div class="Destination-card__ruler"></div>
+
+                                <p class="Destination-card__features"> 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                <p class="Destination-card__ratings"> <i class="fas fa-star Destination-card__icon-star"></i> <span class="bold-font">4,97</span> (178 omtaler)</p>
+                            </div>
+                        </article> 
+                    </a><!--end of article-->
+
+                       <a class="a-reset" href="#">
+                        <article class="Destination-card">
+                        
+                            <div>
+                                <img class="Destination-card__image Destination-card__image_superhost_true" src="images/summerhouse_small.jpg" alt="Sommerhus Orø udendørs">
+                            </div>
+
+                            <div class="Destination-card__paragraph-wrapper">
+                                
+                                <div class="flex-container">
+                                    <div>
+                                        <p class="Destination-card__destination">Hel(t) hytte i Orø</p>
+                                        <p class="Destination-card__destination-title">Summerhouse at island - fjordview</p>
+                                    </div>
+                                        <i class="far fa-heart Destination-card__icon-heart"></i>
+                                </div>
+
+                                <div class="Destination-card__ruler"></div>
+
+                                <p class="Destination-card__features"> 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                <p class="Destination-card__ratings"> <i class="fas fa-star Destination-card__icon-star"></i> <span class="bold-font">4,97</span> (178 omtaler)</p>
+                            </div>
+                        </article> 
+                    </a><!--end of article-->
+            
+                        <article class="Destination-card">
+                        
+                            <div>
+                                <img class="Destination-card__image Destination-card__image_superhost_true" src="images/summerhouse_small.jpg" alt="Sommerhus Orø udendørs">
+                            </div>
+
+                            <div class="Destination-card__paragraph-wrapper">
+                                
+                                <div class="flex-container">
+                                    <div>
+                                        <p class="Destination-card__destination">Hel(t) hytte i Orø</p>
+                                        <p class="Destination-card__destination-title">Summerhouse at island - fjordview</p>
+                                    </div>
+                                        <i class="far fa-heart Destination-card__icon-heart"></i>
+                                </div>
+
+                                <div class="Destination-card__ruler"></div>
+
+                                <p class="Destination-card__features"> 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                <p class="Destination-card__ratings"> <i class="fas fa-star Destination-card__icon-star"></i> <span class="bold-font">4,97</span> (178 omtaler)</p>
+                            </div>
+                        </article> <!--end of article-->
+
+    
+
+                </section> <!--end of flex-container-->
+
+                <aside class="Google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116956.45203086465!2d12.47578612924917!3d55.67424092656119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2sK%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1617950330131!5m2!1sda!2sdk" width="550" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </aside>  
+            
+            </main>
+
+
+
+    </div> <!--end of wrapper-->
+</body>
+</html>
