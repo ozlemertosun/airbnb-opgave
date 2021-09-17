@@ -1,0 +1,55 @@
+{
+    "Destination" : [
+        {
+        "id": 1,
+        "superhost" : true, 
+
+        "image" : [
+            "summerhouse.jpg", 
+            "#", 
+            "#", 
+            "#", 
+            "#"
+        ], 
+        "subtitle" : "Hel(t) hytte i Orø", 
+        "title" : "Summerhouse at island - fjordview", 
+        "features" : " 4 gæster · 1 soveværelse · 1 seng · 1 badeværelse",
+        "ratingScore" : 4.97, 
+        "ratingReview" : 178
+    }, 
+        {
+        "id": 2,
+        "superhost" : false, 
+
+        "image" : [
+            "dragorsummerhouse.jpg", 
+            "#", 
+            "#", 
+            "#", 
+            "#"
+        ], 
+        "subtitle" : "Hel(t) hytte i Dragør", 
+        "title" : "Summerhouse at Dragør", 
+        "features" : " 2 gæster · 1 soveværelse · 2 senge · 1 badeværelse",
+        "ratingScore" : 3.97, 
+        "ratingReview" : 100  
+    }, 
+    {
+        "id": 3,
+        "superhost" : false, 
+
+        "image" : [
+            "skagensummerhouse.jpg", 
+            "#", 
+            "#", 
+            "#", 
+            "#"
+        ], 
+        "subtitle" : "Hel(t) hytte i Skagen", 
+        "title" : "Summerhouse at Skagen - Seaview", 
+        "features" : " 5 gæster · 2 soveværelse · 3 senge · 2 badeværelser",
+        "ratingScore" : 3.50, 
+        "ratingReview" : 150  
+    }
+    ]
+}

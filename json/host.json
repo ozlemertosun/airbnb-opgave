@@ -1,24 +1,70 @@
 {
-    "Host" : {
+    "Host" : [
+        {
+        "id" : 1,
         "hostImage" : "morten.jpg", 
-        "hostName" : "Morten", 
+        "hostName" : "Morten",
         
         "hostSince" : {
             "month" : "januar", 
             "year" : 2019
         }, 
-
-        "hostInfoList" : [
+        "hostInfoList" : 
             {
-            "hostReview" : 122, 
+            "hostReview" : 178, 
             "hostConfirmed" : true,
             "superHost" : true
-        }
-        ], 
+        }, 
         "title" : "Morten er Superhost", 
         "aboutText" : "Superhosts er erfarne værter med gode anmeldelser, der dedikerer dere tid til at give deres gæster et godt ophold.", 
         "answerRate" : "Morten svarer som regel inden for en time.", 
         "requestButton" : "Morten", 
         "safetyInformation" : true
+    },
+    {
+        "id" : 2,
+        "hostImage" : "jorgen.jpg", 
+        "hostName" : "Jørgen", 
+        
+        "hostSince" : {
+            "month" : "december", 
+            "year" : 2020
+        }, 
+
+        "hostInfoList" : 
+            {
+            "hostReview" : 100, 
+            "hostConfirmed" : true,
+            "superHost" : false
+        }, 
+        "title" : "Vært, Jørgen", 
+        "aboutText" : "Jørgen udbyder sommerhus med plads til to gæster, kontakt ham for at høre mere.", 
+        "answerRate" : "Jørgen svarer som regel inden for 24 timer.", 
+        "requestButton" : "Jørgen", 
+        "safetyInformation" : true
+    },
+    {
+        "id" : 3,
+        "hostImage" : "lars.jpg", 
+        "hostName" : "Lars", 
+        
+        "hostSince" : {
+            "month" : "marts", 
+            "year" : 2021
+        }, 
+
+        "hostInfoList" :
+            {
+            "hostReview" : 150, 
+            "hostConfirmed" : true,
+            "superHost" : false
+        }, 
+        "title" : "Vært, Lars", 
+        "aboutText" : "Lars udbyder sommerhus med plads til to gæster, kontakt ham for at høre mere.", 
+        "answerRate" : "Lars svarer som regel inden for en 5 timer.", 
+        "requestButton" : "Lars", 
+        "safetyInformation" : true
     }
+    
+]
 }

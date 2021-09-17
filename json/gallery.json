@@ -1,5 +1,30 @@
 {
-    "gallery" : {
+    "gallery" : [
+    {
+        "id" : 1, 
+        "title" : "Summerhouse at island - fjordview", 
+        "houseRating" : [
+            { "review" : 
+                {
+                "ratingIcon" : "star", 
+                "ratingScore" : 4.97, 
+                "ratingReview" : 178
+                }, 
+            
+                "superHost" :true,
+                "place": "Orø,Denmark"
+            }
+        ], 
+       "images" : [
+        "summerhouse.jpg", 
+        "summerhouse-indoor.jpg",
+        "summerhouse-indoor-view.jpg", 
+        "summerhouse-indoor-2.jpg", 
+        "summerhouse-indoor-kitchen.jpg"
+    ]
+    },
+    {
+        "id": 2,
         "title" : "Summerhouse at island - fjordview", 
         "houseRating" : [
             { "review" : 
@@ -21,4 +46,30 @@
         "summerhouse-indoor-2.jpg", 
         "summerhouse-indoor-kitchen.jpg"
     ]
-}}
+    }, 
+    {
+        "id": 3,
+        "title" : "Summerhouse at island - fjordview", 
+        "houseRating" : [
+            { "review" : 
+                {
+                "ratingIcon" : "star", 
+                "ratingScore" : 4.97, 
+                "ratingReview" : 178
+                }, 
+            
+                "superHost" :true,
+                "place": "Orø,Denmark"
+            }
+        ], 
+    
+       "images" : [
+        "summerhouse.jpg", 
+        "summerhouse-indoor.jpg",
+        "summerhouse-indoor-view.jpg", 
+        "summerhouse-indoor-2.jpg", 
+        "summerhouse-indoor-kitchen.jpg"
+    ]
+    }
+]
+}
